@@ -1,0 +1,19 @@
+Programul este utilizat din fereastra de Windows Forms.
+
+O entitate ce contine toate Componentele va exista la pornirea aplicatiei.
+
+Pentru a adauga mai multe entitati, completati cele doua casute de text din dreapta sus (numere de la 0 la 800) si apasati buton "Add Entity".
+
+Exista 3 tipuri de Componente ce pot fi atasate unei entitati:  - Tranfsorm (pozitia - daca aceasta e stearsa dispare entitatea)
+							        - Render (Imaginea entitatii)
+								- Player (posibilitatea de a misca entitatea)
+
+Daca o Entitate este selectat pe ecranul ECS (unde sunt afisate entitatile) atunci Lista de Componente ale acesteia va arata toate Componentele
+care apartine de acea Entitate.
+
+Componentele pot fi sterse din Entitate folosind butonul "<-". 
+Iar pentru adaugarea de Componente (nu se permit duplicate) se selecteaza din Lista de Componente Posibile (stanga) si se apasa butonul "->".
+IMPORTANT: Transform nu poate fi adaugat unei Entitati deoarece ar creea o entitate noua(acest lucru se face de la "Add Entity").
+
+Imaginea unei Entitati Selectate se face in zone "Change Image", se selecteaza din ComboBox imaginea dorita si se apasa butonul "Change".
+
